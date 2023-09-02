@@ -50,7 +50,7 @@
 	name = "change_fullscreen"
 	full_name = "Fullscreen"
 	hotkey_keys = list("F11")
-	//keybind_signal = COMSIG_KB_CLIENT_FULLSCREEN_DOWN
+	keybind_signal = COMSIG_KB_CLIENT_FULLSCREEN_DOWN
 
 /datum/keybinding/client/t_fullscreen/down(client/user)
 	. = ..()

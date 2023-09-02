@@ -48,6 +48,7 @@
 
 /datum/keybinding/client/t_fullscreen
 	name = "change_fullscreen"
+	full_name = "Fullscreen"
 	hotkey_keys = list("F11")
 	//keybind_signal = COMSIG_KB_CLIENT_FULLSCREEN_DOWN
 
